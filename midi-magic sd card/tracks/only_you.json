@@ -1,0 +1,72 @@
+{"name":"Only You",
+ "low_key": 1,
+ "high_key": 55,
+ "low_tempo": 70,
+ "start_tempo":80,
+ "high_tempo": 100,
+ "instruments": [
+	[1,1,3,7,12],
+	[2,2,4,48,0],
+	[3,3,7,43,0],
+	[4,4,6,15,1020]],
+ "slot_focus": 2,
+ "blocks": [
+	{"id":0,
+	 "transpose":"cCdDefFgGaAb",
+	 "restart_on_keychange":false,
+	 "events":[
+		[0,3,{"wait": "cCdDefFgGaAb", "key": "cCdDefFgGaAb", "block":"------1-----"}],
+		[12,3,{"wait": "cCdDefFgGaAb", "key": "cCdDefFgGaAb", "block":"------1-----","mayskip":true}],
+		[16,3,{"wait": "cCdDefFgGaAb", "key": "cCdDefFgGaAb", "block":"------1-----"}]
+	 ],
+	 "notes":[
+		[0,0,36,1],
+		[3,0,0,0],
+		[4,0,48,1],
+		[7,0,0,0],
+		[8,0,43,1],
+		[11,0,0,0],
+		[12,0,40,1],
+		[15,0,0,0],
+		[16,0,36,1],
+		[19,0,0,0],
+		[20,0,48,1],
+		[20,1,48,4],
+		[23,0,0,0],
+		[24,0,43,1],
+		[24,1,36,4],
+		[27,0,0,0],
+		[28,0,40,1],
+		[31,0,0,0]
+		]
+	},
+	{"id":1,
+	 "transpose":"cCdDefFgGaAb",
+	 "restart_on_keychange":false, 
+	 "events":[
+		[0,3,{"wait": "cCdDefFgGaAb", "key": "cCdDefFgGaAb", "block":"000000-00000"}],
+		[12,11,{"wait": "cCdDefFgGaAb", "key": "cCdDefFgGaAb", "block":"000000-00000","mayskip":true}],
+		[16,3,{"wait": "cCdDefFgGaAb", "key": "cCdDefFgGaAb", "block":"000000-00000"}]
+	 ],
+	 "notes":[
+		[0,0,36,1],
+		[3,0,0,0],
+		[4,0,48,1],
+		[7,0,0,0],
+		[8,0,43,1],
+		[11,0,0,0],
+		[12,0,39,1],
+		[15,0,0,0],
+		[16,0,36,1],
+		[19,0,0,0],
+		[20,0,48,1],
+		[20,1,48,4],
+		[23,0,0,0],
+		[24,0,43,1],
+		[24,1,36,4],
+		[27,0,0,0],
+		[28,0,39,1],
+		[31,0,0,0]
+		]
+	}]
+}
